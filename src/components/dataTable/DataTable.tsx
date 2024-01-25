@@ -8,6 +8,22 @@ const DataTable = () => {
 
     const columns: GridColDef[] = [
         { field: 'id', headerName: 'ID', width: 90 },
+        { 
+            field: 'avatar', headerName: 'Avatar', width: 100,
+            renderCell: (params) => (
+                <img src={params.row.img || "/noavatar.png"} alt=""/>
+            )
+         },
+         { 
+            field: 'action', headerName: 'Action', width: 100,
+            renderCell: (params) => {
+                return <div className="action">
+                    <div className="view">View</div>
+                    <div className="delete">Delete</div>
+                </div>
+            }
+         },
+         { field: 'status', headerName: 'Status', width: 100, type: 'boolean' },
         {
           field: 'firstName',
           headerName: 'First name',
@@ -39,8 +55,8 @@ const DataTable = () => {
       ];
       
       const rows = [
-        { id: 1, lastName: 'Snow', firstName: 'Jon', age: 14 },
-        { id: 2, lastName: 'Lannister', firstName: 'Cersei', age: 31 },
+        { id: 1, lastName: 'Snow', firstName: 'Jon', age: 14, status: true },
+        { id: 2, lastName: 'Lannister', firstName: 'Cersei', age: 31, status: false },
         { id: 3, lastName: 'Lannister', firstName: 'Jaime', age: 31 },
         { id: 4, lastName: 'Stark', firstName: 'Arya', age: 11 },
         { id: 5, lastName: 'Targaryen', firstName: 'Daenerys', age: null },
