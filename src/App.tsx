@@ -7,9 +7,9 @@ import {
 } from "react-router-dom";
 import Users from "./pages/users/Users";
 import Products from "./pages/products/Products";
-import Navbar from "./components/menu/Menu";
+import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
-import Menu from "./components/navbar/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import Login from "./pages/login/Login";
 import "./styles/global.scss"
 
