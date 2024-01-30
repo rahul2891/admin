@@ -13,6 +13,8 @@ import Login from "./pages/login/Login";
 import "./styles/global.scss"
 import User from "./pages/user/User";
 import Product from "./pages/product/Product";
+import Orders from "./pages/orders/Orders";
+import Posts from "./pages/posts/Posts";
 
 function App() {
 
@@ -49,6 +51,14 @@ function App() {
         {
           path: "/products",
           element: <Products />
+        },
+        {
+          path: "/orders",
+          element: <Orders />
+        },
+        {
+          path: "/posts",
+          element: <Posts />
         },
         {
           path: "/users/:id",

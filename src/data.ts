@@ -118,51 +118,51 @@ export const menu = [
   export const topDealUsers = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      username: "Elva McDonald",
-      email: "elva@gmail.com",
+      img: "https://images.pexels.com/photos/16214084/pexels-photo-16214084/free-photo-of-man-standing-in-bike-helmet-by-motorcycle.jpeg",
+      username: "Rohit Soneta",
+      email: "rohit@gmail.com",
       amount: "3.668",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Linnie Nelson",
-      email: "linnie@gmail.com",
+      img: "https://images.pexels.com/photos/19539369/pexels-photo-19539369/free-photo-of-smiling-woman-in-ripped-jeans-and-sunglasses-standing-by-a-door-with-a-paper-cup-in-her-hand.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      username: "Roshit Choudhary",
+      email: "roshit@gmail.com",
       amount: "3.256",
     },
     {
       id: 3,
       img: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Brent Reeves",
-      email: "brent@gmail.com",
+      username: "Aman Shah",
+      email: "aman@gmail.com",
       amount: "2.998",
     },
     {
       id: 4,
-      img: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Adeline Watson",
-      email: "adeline@gmail.com",
+      img: "https://images.pexels.com/photos/4747325/pexels-photo-4747325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      username: "Virat Kholi",
+      email: "Virat@gmail.com",
       amount: "2.512",
     },
     {
       id: 5,
       img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Juan Harrington",
-      email: "juan@gmail.com",
+      username: "Yash Sharma",
+      email: "yash@gmail.com",
       amount: "2.134",
     },
     {
       id: 6,
       img: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Augusta McGee",
-      email: "augusta@gmail.com",
+      username: "Malhar Deshpande",
+      email: "malhar@gmail.com",
       amount: "1.932",
     },
     {
       id: 7,
       img: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Angel Thomas",
-      email: "angel@gmail.com",
+      username: "Ambar Gupta",
+      email: "ambar@gmail.com",
       amount: "1.560",
     },
   ];
@@ -239,7 +239,7 @@ export const menu = [
 
   export const barChartBoxRevenue = {
     title: "Profit Earned",
-    color: "#8884d8",
+    color: "#22c1c3",
     dataKey: "profit",
     chartData: [
       {
@@ -275,7 +275,7 @@ export const menu = [
   
   export const barChartBoxVisit = {
     title: "Total Visit",
-    color: "#FF8042",
+    color: "#FFC107",
     dataKey: "visit",
     chartData: [
       {
